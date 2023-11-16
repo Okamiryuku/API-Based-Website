@@ -1,5 +1,5 @@
 import requests
-from flask import Flask, render_template, request, flash, redirect, url_for
+from flask import Flask, render_template
 from flask_bootstrap import Bootstrap
 import os
 
