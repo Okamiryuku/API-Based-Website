@@ -4,8 +4,7 @@ from flask_bootstrap import Bootstrap
 import os
 
 
-API_KEY = 'jb5dgzd8zO_V2ej8YPHl' # os.environ.get("API_KEY")
-USERNAME = 'okamiryuku@gmail.com'
+API_KEY = os.environ.get("API_KEY")
 BREWERY_ENDPOINT = 'https://api.openbrewerydb.org/v1/breweries'
 
 app = Flask(__name__)
